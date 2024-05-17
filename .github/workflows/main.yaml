@@ -41,7 +41,7 @@ jobs:
           SECRETS_NEW: ${{secrets.NEW_SECRET}}
         run: |
             echo "The secret token is $SECRET_TOKEN"
-            echo "The secret token is $NEW_SECRET"
+            echo "The secret token is $SECRETS_NEW"
 
 
 
