@@ -22,7 +22,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         -name: Print the secrets
-         run: echo "DEVEOPS"
+         run: echo "$DEVEOPS"
          env:
           DEVEOPS: ${{secrets.NEW_SECRET}}
 
